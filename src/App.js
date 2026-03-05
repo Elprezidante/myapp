@@ -1,7 +1,10 @@
 import './App.css';
+import Fifthcomponent from './components/Fifthcomponent';
 import Firstcomponent from './components/Firstcomponent';
+import Fourthcomponent from './components/Fourthcomponent';
 import Helpcomponent from './components/Helpcomponent';
 import Secondcomponent from './components/Secondcomponent';
+import Thirdcomponent from './components/Thirdcomponent';
 import Usercomponent from './components/Usercomponent';
 
 function App() {
@@ -19,6 +22,12 @@ function App() {
       <Usercomponent />
       {/* {Below we render /display our Help component} */}
       <Helpcomponent />
+        {/* {Below we render /display our Third component} */}
+      <Thirdcomponent/>
+        {/* {Below we render /display our Fourth component} */}
+      <Fourthcomponent/>
+      {/* {Below we render /display our Fifth component} */}
+      <Fifthcomponent/>
 
     </div>
   );
