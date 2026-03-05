@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #097cb5;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Firstcomponents{
+    background-color: #7c09b5;
+}
+.Secondcomponent{
+    background-color: #09b57c;
+}
+.Usercomponent{
+    background-color: #b5097c;
+     min-height: 10vh;
+
+  align-items: center;
+  
+  font-size: calc(10px + 2vmin);
+  
+
+}
+.Helpcomponent{
+    background-color: #7c09b5;
+     min-height: 10vh;
+  justify-content: center;
+ 
 }
